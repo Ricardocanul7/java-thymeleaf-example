@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+    <div th:fragment="content (lang)">
+        <h3 th:text="#{page.skills}"></h3>
+
+        <ul th:each="item: ${skills}">
+            <li th:text="${item}"></li>
+        </ul>
+    </div>
+</body>

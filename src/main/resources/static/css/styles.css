@@ -1,0 +1,36 @@
+body {
+    background-color: beige;
+}
+
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.cover {
+    width: 20px;
+    height: 20px;
+}
+
+.portfolio-link {
+    text-decoration: none;
+    color: gray;
+    margin-left: 10px;
+}
+
+.portfolio-link:hover {
+    color: black;
+}
+
+.light-text {
+    color: gray;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
